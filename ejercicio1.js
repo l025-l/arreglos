@@ -23,3 +23,18 @@ function probarAgregar() {
 function agregarNota(nota) {
     notas.push(nota);
 }
+
+function calcularPromedio() {
+    let sumaNotas = 0;
+    let promedio;
+
+    for (let i = 0; i < notas.length; i++) {
+        sumaNotas = sumaNotas + notas[i];
+    }
+    promedio = sumaNotas / notas.length;
+
+    console.log("promedio " + promedio.toFixed(2));
+    return promedio;
+    
+}
+
