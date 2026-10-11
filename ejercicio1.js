@@ -38,3 +38,12 @@ function calcularPromedio() {
     
 }
 
+function generarTabla(){
+    let contenidoTabla = "";
+    let cmpTabla = document.getElementById("divTabla");
+
+    contenidoTabla += "<table><tr><td>UNO</td></tr>"+
+                        "<tr><td>DOS</td></tr>"+
+                        "</table>";
+    cmpTabla.innerHTML = contenidoTabla;
+}
