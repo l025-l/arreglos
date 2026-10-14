@@ -51,7 +51,7 @@ function generarTabla(){
 
 function mostrarNotas(){
     let cmpTabla = document.getElementById("divTabla");
-    let contenidoTabla = "<table>";
+    let contenidoTabla = "<table><tr><td>NOTA</th></td>";
     let miNota;
 
     for (let i = 0; i<notas.length;i++){
